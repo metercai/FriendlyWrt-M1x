@@ -1,5 +1,5 @@
 # FriendlyWrt-M1x
-Toolchain to build and flash FriendlyWrt/OpenWRT image in Apple M1/M1x MacBook Pro
+Scripts and toolchain to build and flash FriendlyWrt/OpenWRT image in Apple M1/M1x MacBook Pro
 
 The official source package of Friendlywrt only provides x86 cross-compile tools to build **uboot**, **kernel** and **sd-img**, it means that Friendlywrt can not be compiled in Apple M1x's MacBook Pro. I updated the toolkit according to the official script. Successfully lit the [NanoPi-R4S](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R4S) with customized firmware SD card by complied, packed and burned with Apple silicon. New scripts and tools are saved here to share to friends with the same demand.
 
