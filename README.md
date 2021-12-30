@@ -22,7 +22,7 @@ $ ./repo/repo sync -l --no-clone-bundle
 $ cd pre-download && ./unpack.sh && cd ..
 $ ./repo/repo sync -c  --no-clone-bundle
 ```
-3. Before [compile Source Code](https://wiki.friendlyarm.com/wiki/index.php/How_to_Build_FriendlyWrt#Compile_Source_Code), update toolchain and config file :
+3. Before [compile source code](https://wiki.friendlyarm.com/wiki/index.php/How_to_Build_FriendlyWrt#Compile_Source_Code), update toolchain and config file :
 ```
 $ git clone https://github.com/metercai/FriendlyWrt-M1x.git
 $ cd FriendlyWrt-M1x && ./tools-patch.sh && ./config-patch.sh && cd ..
@@ -92,7 +92,7 @@ Terminal1: `$ make V=s 2>&1 | tee build.log | grep -i -E "^make.*(error|[12345].
 
 Terminal2: `$ tail -f build.log`
 
-2，不管是否预先下载了源码包，在编译过程中都需要保持海外网络持续可访问。因为编译过程中需要从GitHub上下载代码，包括kernel和FriendlyWrt两个过程都需要。我这里有一个新的源码包，可以在编译过程中进一步降低下载量，特别在kernel环节已经没有连线下载量了。
+2，不管是否预先下载了源码包，在编译过程中都需要保持海外网络持续可访问。因为编译过程中需要从GitHub上下载代码，包括kernel和FriendlyWrt两个过程都需要。我这里有一个新的源码包，可以在编译过程中进一步降低下载量，特别在kernel环节已经没有在线下载量了。
 
 3，编译过程中需要修正外部go语言目录的配置：
 
