@@ -32,7 +32,7 @@ $ cd FriendlyWrt-M1x && ./tools-patch.sh && ./config-patch.sh && cd ..
 `$ ./build.sh nanopi_r4s.mk`
 
 ### Memo:
-1. Building uboot and kernel is easy, but Friendlywrt is difficult. Errors occur frequently. You can build it several times with the following command. The command can view the detailed building information output through another terminal window.
+1. Building uboot and kernel is easy, but friendlywrt is difficult. It was no surprise when errors occur. You can build it repeatly with the following command. The command can view the detailed building information output through another terminal window.
 
 Terminal1:
 `$ make V=s 2>&1 | tee build.log | grep -i -E "^make.*(error|[12345]...Entering dir)"`
@@ -86,7 +86,7 @@ $ cd FriendlyWrt-M1x && ./tools-patch.sh && ./config-patch.sh && cd ..
 
 ### 需要提醒：
 
-1，编译 uboot 和 kernel相对比较轻松。而FriendlyWrt会比较麻烦，出现错误是正常的，可以用下面命令反复多编译几次。这个命令的好处是可以通过另一终端窗口查看详细的编译状态输出。
+1，编译 uboot 和 kernel相对比较轻松。而friendlywrt会比较麻烦，出现错误是正常的，可以用下面命令反复多编译几次。这个命令的好处是可以通过另一终端窗口查看详细的编译状态输出。
 
 Terminal1: `$ make V=s 2>&1 | tee build.log | grep -i -E "^make.*(error|[12345]...Entering dir)"`
 
