@@ -27,7 +27,7 @@ $ ./repo/repo sync -c  --no-clone-bundle
 $ git clone https://github.com/metercai/FriendlyWrt-M1x.git
 $ cd FriendlyWrt-M1x && ./tools-patch.sh && ./config-patch.sh && cd ..
 ```
-4. And then, you can build uboot, kernel，friendlywrt and sd-img without pause:
+4. And then, you can build uboot, kernel, friendlywrt and sd-img without pause:
 
 `$ ./build.sh nanopi_r4s.mk`
 
