@@ -92,7 +92,7 @@ Terminal1: `$ make V=s 2>&1 | tee build.log | grep -i -E "^make.*(error|[12345].
 
 Terminal2: `$ tail -f build.log`
 
-2，不管是否预先下载了源码包，在编译过程中都需要保持海外网络持续可访问。因为编译过程中需要从GitHub上下载代码，包括kernel和FriendlyWrt两个过程都需要。我这里有一个新的源码包，可以在编译过程中进一步降低下载量，特别在kernel环节已经没有在线下载量了。
+2，不管是否预先下载了源码包，在编译过程中都需要保持海外网络持续可访问。因为编译过程中需要从GitHub上下载代码，包括kernel和FriendlyWrt两个过程都需要。我这里有一个新的源码包，可以[邮件](mailto:925457@qq.com)索取。新包添加了所有需要下载的软件包和模块源码，支持最新的linux kernel 5.15，在kernel环节已没有下载量，在FriendlyWrt环节仅有少量的同步流量。
 
 3，编译过程中需要修正外部go语言目录的配置：
 
